@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
-.app {
-  font-size: 30px;
+button,
+input,
+textarea,
+select {
+  font-size: inherit;
 }
