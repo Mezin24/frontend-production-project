@@ -1,6 +1,6 @@
 import { useTheme } from 'app/providers/ThemeProvider';
 import { classNames } from 'shared/lib/classNames/classNames';
-import { AppRouter } from './providers/router';
+import { AppRouter } from 'app/providers/router';
 import './styles/index.scss';
 import { Navbar } from 'widgets/Navbar';
 import { Sidebar } from 'widgets/Sidebar/ui/Sidebar';
@@ -11,9 +11,9 @@ const App = () => {
 
   return (
     <div className={classNames('app', {}, [theme])}>
-      <Suspense fallback={'loading'}>
+      <Suspense fallback="loading">
         <Navbar />
-        <div className='page-content'>
+        <div className="page-content">
           <Sidebar />
           <AppRouter />
         </div>

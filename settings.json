@@ -1,0 +1,129 @@
+{
+  "liveServer.settings.donotShowInfoMsg": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "terminal.integrated.tabs.enabled": true,
+  // "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.singleQuote": true,
+  "prettier.tabWidth": 2,
+  "editor.formatOnSave": true,
+  "prettier.semi": false,
+  "todohighlight.isCaseSensitive": true,
+  "todohighlight.keywords": [
+    {
+      "text": "EXERCISE",
+      "color": "333",
+      "backgroundColor": "#f1c40f"
+    },
+    {
+      "text": "REMEMBER",
+      "color": "333",
+      "backgroundColor": "#74c0fc"
+    },
+    {
+      "text": "FIXME",
+      "color": "333",
+      "backgroundColor": "#E67E22"
+    },
+    {
+      "text": "BUG",
+      "color": "333",
+      "backgroundColor": "#E74C3C"
+    },
+    {
+      "text": "TODO",
+      "color": "333",
+      "backgroundColor": "#2ecc71"
+    }
+  ],
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/css/"
+    }
+  ],
+  "liveSassCompile.settings.autoprefix": ["> 1%", "last 2 versions"],
+  "workbench.iconTheme": "material-icon-theme",
+  "diffEditor.codeLens": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.minimap.enabled": false,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.tabSize": 2,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "settingsSync.ignoredSettings": [],
+  "editor.codeActionsOnSave": {},
+  "editor.fontWeight": "normal",
+  "workbench.colorTheme": "Material Theme Palenight High Contrast",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "terminal.integrated.fontFamily": "MonoLisa, monospace",
+  "editor.fontSize": 14,
+  "terminal.integrated.fontSize": 12,
+  "editor.lineHeight": 1.6,
+  "terminal.integrated.profiles.windows": {
+    "GitBash": {
+      "path": ["C:\\Program Files\\Git\\bin\\bash.exe"],
+      "args": []
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "GitBash",
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
+  ],
+  "editor.guides.bracketPairs": "active",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.autoClosingQuotes": "always",
+  "editor.autoClosingBrackets": "always",
+  "prettier.bracketSameLine": true,
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "cSpell.languageSettings": [],
+  "reactSnippets.settings.importReactOnTop": false,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "workbench.startupEditor": "none",
+  "editor.suggest.showSnippets": true,
+  "liveSassCompile.settings.useNewCompiler": false,
+  "eslint.format.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.stylelint": true
+  },
+  "[css]": {
+    "editor.defaultFormatter": "stylelint.vscode-stylelint"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "stylelint.vscode-stylelint"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "stylelint.executeAutofix"
+  },
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "stylelint.enable": true,
+  "stylelint.validate": ["css", "scss"],
+  "stylelint.config": null,
+  "workbench.statusBar.visible": false,
+  // "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "typescript.tsserver.pluginPaths": ["typescript-plugin-css-modules"]
+}
