@@ -40,7 +40,7 @@ module.exports = {
     'no-underscore-dangle': 'off',
     'linebreak-style': 'off',
     'no-promise-executor-return': 'off',
-    'i18next/no-literal-string': ['off', { markupOnly: true }],
+    'i18next/no-literal-string': ['error', { markupOnly: true }],
   },
   globals: {
     __IS_DEV__: true,
