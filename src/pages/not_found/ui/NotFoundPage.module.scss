@@ -1,0 +1,25 @@
+.NotFoundPage {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.img {
+  max-width: 300px;
+  width: 90%;
+}
+
+.img path {
+  fill: var(--primary-color);
+}
+
+.img circle {
+  fill: var(--inverted-bg-color);
+}
+
+.title {
+  font: var(--font-l);
+}
