@@ -4,5 +4,8 @@
   "О нас": "About",
   "переключатель": "toggle",
   "загрузка": "loading",
-  "Страница не найдена": "Page not found"
+  "Страница не найдена": "Page not found",
+  "ошибка": "throw error",
+  "что то пошло не так": "something went wrong",
+  "перезагрузить": "refresh"
 }
