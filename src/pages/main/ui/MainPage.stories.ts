@@ -6,8 +6,8 @@ const meta: Meta<typeof MainPage> = {
   component: MainPage,
   tags: ['autodocs'],
 };
-
 export default meta;
+
 type Story = StoryObj<typeof MainPage>;
 
 export const Normal: Story = {
