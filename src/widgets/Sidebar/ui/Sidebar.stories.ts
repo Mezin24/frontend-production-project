@@ -12,8 +12,7 @@ const meta: Meta<typeof Sidebar> = {
 export default meta;
 type Story = StoryObj<typeof Sidebar>;
 
-export const Light: Story = {
-};
+export const Light: Story = {};
 
 export const Dark: Story = {
   decorators: [ThemeDecorator(ThemeType.DARK)],
